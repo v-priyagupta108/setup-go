@@ -100581,7 +100581,7 @@ async function run() {
             arch = external_os_default().arch();
         }
         if (versionSpec) {
-            startGroup(`Setup Go ${versionSpec}`);
+            startGroup('Installed version');
             try {
                 core_info(`Setup go version spec ${versionSpec}`);
                 const token = getInput('token');

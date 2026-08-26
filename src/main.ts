@@ -29,7 +29,7 @@ export async function run() {
     }
 
     if (versionSpec) {
-      core.startGroup(`Setup Go ${versionSpec}`);
+      core.startGroup('Installed version');
       try {
         core.info(`Setup go version spec ${versionSpec}`);
 
